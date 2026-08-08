@@ -1,50 +1,131 @@
-index.html
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+
+    <title>Thế giới công nghệ</title>
 
     <style>
-        body{
+        body {
             font-family: Arial, sans-serif;
-            background:#f2f2f2;
-            text-align:center;
-            margin-top:80px;
+            background: #f2f2f2;
+            margin: 0;
+            color: #333;
         }
 
-        h1{
-            color:#2563eb;
+        header {
+            background: #2563eb;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
         }
 
-        p{
-            font-size:20px;
+        header h1 {
+            margin: 0;
         }
 
-        .box{
-            width:700px;
-            max-width:90%;
-            margin:auto;
-            background:white;
-            padding:40px;
-            border-radius:12px;
-            box-shadow:0 0 20px rgba(0,0,0,.15);
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 900px;
+            max-width: 90%;
+            margin: 30px auto;
+        }
+
+        .article {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,.1);
+        }
+
+        .article h2 {
+            color: #2563eb;
+        }
+
+        .article p {
+            line-height: 1.7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #222;
+            color: white;
+            margin-top: 40px;
         }
     </style>
-
 </head>
+
 <body>
 
-<div class="box">
+    <header>
+        <h1>Thế giới công nghệ</h1>
+        <p>Tin tức, kiến thức và thủ thuật công nghệ</p>
+    </header>
 
-<h1>Xin chào!</h1>
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Công nghệ</a>
+        <a href="#">Thủ thuật</a>
+        <a href="#">Liên hệ</a>
+    </nav>
 
-<p>Đây là website đầu tiên của tôi.</p>
+    <main class="container">
 
-<p>Được tạo bằng GitHub Pages.</p>
+        <article class="article">
+            <h2>Những điều thú vị về công nghệ</h2>
 
-</div>
+            <p>
+                Công nghệ đang thay đổi cách chúng ta làm việc,
+                học tập và giải trí mỗi ngày.
+            </p>
+
+            <p>
+                Website này được xây dựng để chia sẻ những kiến thức
+                và thông tin hữu ích về máy tính, điện thoại,
+                Internet và các công nghệ mới.
+            </p>
+        </article>
+
+        <article class="article">
+            <h2>Thủ thuật máy tính hữu ích</h2>
+
+            <p>
+                Tìm hiểu những thủ thuật đơn giản giúp sử dụng
+                Windows, Internet và các phần mềm hiệu quả hơn.
+            </p>
+        </article>
+
+        <article class="article">
+            <h2>Kiến thức Internet</h2>
+
+            <p>
+                Khám phá các dịch vụ Internet, website,
+                bảo mật và những công nghệ đang được sử dụng
+                hàng ngày.
+            </p>
+        </article>
+
+    </main>
+
+    <footer>
+        © 2026 Thế giới công nghệ
+    </footer>
 
 </body>
 </html>
